@@ -1,8 +1,10 @@
 # ActivityResultSample
 Sample android app to show new Results API usage
 
-'''
- // General activity result contract
+
+# Sample Code 
+```
+  // General activity result contract
     private val openPostActivity =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             if (result.resultCode == Activity.RESULT_OK) {
@@ -16,4 +18,7 @@ Sample android app to show new Results API usage
                 Toast.makeText(this, "Result Cancelled from SecondActivity", Toast.LENGTH_SHORT).show()
             }
         }
-'''
+```
+
+
+
